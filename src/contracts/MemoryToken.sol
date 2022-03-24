@@ -3,6 +3,7 @@ pragma solidity ^0.5.0;
 import "./ERC721Full.sol";
 
 contract MemoryToken is ERC721Full  {
+// contract MemoryToken  {
 
     constructor() ERC721Full("Memory Token", "MEMORY") public {
     }
@@ -13,4 +14,6 @@ contract MemoryToken is ERC721Full  {
        _setTokenURI(_tokenId, _tokenURI);
        return true;
     }
+
+    string public name = "Memory Token";
 }
