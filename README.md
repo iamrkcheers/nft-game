@@ -7,4 +7,5 @@ Technology Stack :
   2. Truffle
   3. Ganache
   4. ReactJS
-  5. MetaMask
+  5. JavaScript
+  6. MetaMask
